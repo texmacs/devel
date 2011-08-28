@@ -7,7 +7,7 @@
     Un esempio di plugin in <name|C++>
   </expand>
 
-  <paragraph|Il plugin <verbatim|minimal>>
+  <paragraph*|Il plugin <verbatim|minimal>>
 
   Consideriamo l'esempio del plugin <verbatim|minimal> nella directory
 
@@ -48,7 +48,7 @@
   Dopo aver rilanciato <TeXmacs> il plugin dovrebbe essere automaticamente
   riconosciuto.
 
-  <paragraph|Come funziona>
+  <paragraph*|Come funziona>
 
   Il plugin <verbatim|minimal> è un esempio di interfaccia minimale tra
   <TeXmacs> e un programma esterno; il programma esterno
@@ -72,7 +72,7 @@
   <verbatim|Makefile>. L'opzione <expand|scheme-code|:launch> specifica come
   lanciare il programma esterno. L'opzione <verbatim|:session> indica che
   sarà possibile creare una sessione per il plugin <verbatim|minimal>
-  utilizzando il menu <apply|menu|Text|Session|Minimal>.
+  utilizzando il menu <apply|menu|Insert|Session|Minimal>.
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven, Andrea Centomo>
 
